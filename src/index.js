@@ -9,5 +9,5 @@ const port = process.env.MONGO_PORT || 3000;
 
 connectDB();
 app.listen(port, host, () => {
-    console.log("Server on port: ", port);
+    console.log("Server on port: ", port); 
 });
