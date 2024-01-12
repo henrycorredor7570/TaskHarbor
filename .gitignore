@@ -1,4 +1,4 @@
 # carpetas:
 node_modules
 .env
-client
+vercel.json
