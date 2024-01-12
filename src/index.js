@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config({path:".env"});
 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.MONGO_PORT || 3000;
+const port = process.env.MONGOPORT || 3000;
 
 connectDB();
 app.listen(port, host, () => {
