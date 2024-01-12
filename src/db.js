@@ -4,7 +4,7 @@ dotenv.config({path: '.env'});
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://henrycorredor7570:real.madrid10@cluster0.uo4elvf.mongodb.net/?retryWrites=true&w=majority");
+        await mongoose.connect("mongodb://mongo:Hbg32d21-AHgF1Eb6H-1Cfb616cHGA13@monorail.proxy.rlwy.net:32268");
         console.log(">>> MongoDB Connected...");
     } catch (error) {
         console.log(error);
