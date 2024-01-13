@@ -4,10 +4,9 @@ dotenv.config({path: '.env'});
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect("");
+        await mongoose.connect(process.env.MONGODB_URL);
         console.log(">>> MongoDB Connected...");
     } catch (error) {
         console.log(error);
     }
 }
-// await mongoose.connect("mongodb://mongo:Hbg32d21-AHgF1Eb6H-1Cfb616cHGA13@monorail.proxy.rlwy.net:32268");
