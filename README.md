@@ -1,6 +1,6 @@
 <h1>CRUD "TASK HARBOR" con JavaScript, Nodejs</h1>
 
-<h3>📃 Task Harbor es una aplicación web responsive (CRUD) que permite registrar un usuario en la base de datos, loguearse, y gestionar un listado de tareas a realizar💻</h3>
+<h3>📃 Task Harbor es una aplicación web responsive (CRUD) que permite registrar un usuario en la base de datos, loguearse, y gestionar un listado de tareas a realizar💻 </h3>
 <h4>Dentro de sus principales características se encuentran: </h4>
 <ul>
   <li>Sistema de registro y logueo de usuarios en el sistema</li>
