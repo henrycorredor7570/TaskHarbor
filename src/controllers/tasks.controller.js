@@ -2,7 +2,7 @@ import Task from '../models/task.model.js';
 
 export const getTasks = async (req,res) => {
     try {
-        const tasks = await Task.find({
+        const tasks = await Task.find({ 
             user: req.user.id
         }).populate('user')//populate: para que me traiga no solo el id del usuario si no todos los datos del usuario relacionados con esas tasks
         res.json(tasks);
