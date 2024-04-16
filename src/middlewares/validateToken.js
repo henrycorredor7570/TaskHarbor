@@ -14,7 +14,7 @@ export const authRequired  = (req, res, next) => {
         }
 
         req.user = user;
-        console.log("User from token:", user);
+        console.log("User from token:", user); 
         next();
     })
 }
