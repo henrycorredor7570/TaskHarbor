@@ -7,7 +7,7 @@
   <li>Encriptación de contraseñas, implementación de tokens de seguridad para el logueo</li>
   <li>Diseño Responsive</li>
   <li>Listado de tareas pendientes</li>
-  <li>Agregar nuevas tareas a realizar con su respectiva fecha</li>
+  <li>Agregar nuevas tareas a realizar con su respectiva fecha</li> 
   <li>Editar Tareas</li>
   <li>Eliminar Tareas</li>
   <li>Barra de navegación por la aplicación, con botón de login, logout, y register</li>
